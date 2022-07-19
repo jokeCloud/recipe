@@ -7,12 +7,12 @@ def home(request):
 
 
 def recipes(request):
-    return HttpResponse('Recipes')
+    return render(request, 'recipes/recipes.html')
 
 
 def blog(request):
-    return HttpResponse('Blog')
+    return render(request, 'recipes/blog.html')
 
 
 def contact(request):
-    return HttpResponse('Contact')
+    return render(request, 'recipes/contact.html')
