@@ -8,11 +8,3 @@ def home(request):
 
 def recipes(request):
     return render(request, 'recipes/recipes.html')
-
-
-def blog(request):
-    return render(request, 'recipes/blog.html')
-
-
-def contact(request):
-    return render(request, 'recipes/contact.html')
